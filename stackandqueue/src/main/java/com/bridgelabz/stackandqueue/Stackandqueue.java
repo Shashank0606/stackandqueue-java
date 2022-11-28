@@ -33,7 +33,6 @@ public class Stackandqueue {
             System.out.println("stack is empty.");
             return -1;
         }
-
     }
 
     public void pop() {
@@ -42,11 +41,11 @@ public class Stackandqueue {
             top = top.next;
             System.out.println("one item removed from stack...");
         }
+
         System.out.println("now stack is empty :: ");
     }
 
     public void printStack() {
-
         Node node = top;
         while (node != null) {
             System.out.println(node.data);
@@ -66,5 +65,4 @@ public class Stackandqueue {
         stackoperation.printStack();
 
     }
-
 }
